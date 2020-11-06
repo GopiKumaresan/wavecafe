@@ -14,7 +14,7 @@
         echo "OOPS..! Our shop is out of service ! error : " . $errormessage;
         exit();
     }
-    printf ("Order placed successfully..!);
+    printf ("Order placed successfully..!");
     pg_close();
     ?>
 </body>
